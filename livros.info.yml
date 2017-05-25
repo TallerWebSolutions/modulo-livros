@@ -1,0 +1,9 @@
+name: Livros
+description: Cria e configura livros no drupal
+package: Custom
+
+type: module
+core: 8.x
+
+#dependencies:
+#  - drupal:views
