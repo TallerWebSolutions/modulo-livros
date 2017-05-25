@@ -1,0 +1,12 @@
+livros.meus_livros:
+  title: Meus livros
+  route_name: livros.content
+  menu_name: account
+  enabled: 1
+
+# livros.admin:
+#   title: 'Settings do livro'
+#   description: 'example of how to make an admin settings page link'
+#   parent: system.admin_config_development
+#   route_name: livros.content
+#   weight: 100
