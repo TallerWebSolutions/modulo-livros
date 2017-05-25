@@ -1,5 +1,5 @@
 livros.content:
-  path: '/meus-livros'
+  path: '/meus-livros/{id}'
   defaults:
     _controller: '\Drupal\livros\Controller\LivroController::content'
     _title: 'Meus livros'

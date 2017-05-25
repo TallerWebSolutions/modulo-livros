@@ -1,8 +1,8 @@
-livros.meus_livros:
-  title: Meus livros
-  route_name: livros.content
-  menu_name: account
-  enabled: 1
+# livros.meus_livros:
+#   title: Meus livros
+#   route_name: livros.content
+#   menu_name: account
+#   enabled: 1
 
 # livros.admin:
 #   title: 'Settings do livro'

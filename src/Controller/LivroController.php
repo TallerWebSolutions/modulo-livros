@@ -11,16 +11,16 @@ class LivroController extends ControllerBase {
    *
    * @return array
    */
-  public function content() {
-    $nodeLivro = $this->entityTypeManager()->getStorage('node')->loadMultiple(['99', '106']);
-    $nodeLivroView = $this->entityTypeManager()->getViewBuilder('node')->viewMultiple($nodeLivro, 'default');
+  public function content($id) {
+    $nodeLivro = $this->entityTypeManager()->getStorage('node')->load($id);
+    $nodeLivroView = $this->entityTypeManager()->getViewBuilder('node')->view($nodeLivro, 'default');
 
     return $nodeLivroView;
 
-    // return array(
-    //   '#type' => 'markup',
-    //   '#markup' => $nodeLivroView,
-    // );
+    return array(
+      '#type' => 'markup',
+      '#markup' => $first,
+    );
   }
 
 }
